@@ -1,0 +1,45 @@
+
+span{
+    color:green;
+    background-color:rgb(152, 200, 255);
+}
+.blueColor {
+  color: blue;
+  font-family: arial;
+  font-size: 24px;
+}
+
+span.blueColor {
+  color: blue;
+  font-family: arial;
+  font-size: 24px;
+}
+.highlight a {
+  text-decoration: underline;
+}
+#specificColor {
+  color: rgb(120, 0, 139);
+  font-family: Verdana;
+  font-size: 24px;
+}
+
+#specificLink {
+  color: rgb(255, 88, 46);
+  font-family: Verdana;
+  font-size: 24px;
+}
+
+.second-page {
+  background-image: url('https://media.greatbigphotographyworld.com/wp-content/uploads/2022/04/How-to-photograph-the-stars-set-focus-to-infinity-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+}
+input:invalid {
+    border-color: red;
+}
+
+input:invalid:focus {
+    box-shadow: 0 0 5px red;
+    outline: none; 
+}
